@@ -1,0 +1,35 @@
+# per apollo theme instructions
+# See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14
+base_url = "https://sjwo.github.io"
+title = "sjwo"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+theme = "toggle"
+fancy_code = "true"
+socials = [
+  # Configure socials here
+  { name =  "github", url = "https://github.com/sjwo/", icon = "github"},
+  { name = "linkedin", url = "https://www.linkedin.com/in/sjwo/", icon = "linkedin"}
+]
+menu = [
+  # Configure menu bar here
+]
+
+
+
+
+# The URL the site will be built for
